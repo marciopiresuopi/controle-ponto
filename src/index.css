@@ -1,0 +1,23 @@
+/* seu-projeto-react/src/index.css */
+
+/* Estas são as diretivas do Tailwind CSS que ele substitui com os estilos gerados */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Você pode adicionar estilos CSS globais aqui, se necessário */
+body {
+  font-family: 'Inter', sans-serif; /* Define a fonte Inter */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garante que o aplicativo ocupe a altura total da tela */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
